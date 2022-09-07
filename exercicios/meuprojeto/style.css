@@ -1,0 +1,16 @@
+@charset "UTF-8";
+mark{
+    background-color: rgb(103, 250, 4);
+}
+body{
+   background-color: black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+  }
+p{
+    text-align: center;
+    
+}
