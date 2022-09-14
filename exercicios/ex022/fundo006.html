@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title> Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+
+         /* background-color: black;
 
             background-image: url('imagens/wallpaper002.jpg');
 
-            background-position: center top;
+            background-position: center center;
 
             background-repeat: no-repeat;
 
-            background-size: cover;
+            background-size: cover; /* vamos cosiderar uma OBSERVAÇÃO! na shorthande não vou poder coloca-lo.*/
+
+          /*background-attachment:fixed; */
+
+            /*shorthand-background, vamos usar a seguinte ordem:
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background:black  url('imagens/wallpaper002.jpg')  center center  no-repeat   fixed;
+
+           background-size: cover;/* mas posso por ele aqui em baixo ,até que a W3C aceite ela junto com as outras .*/
         }
         main{
             background-color: white;
 
-            width: 400px;
+           max-width: 400px; /* se eu ver na tela de um celular ele ira espremer o conteudo para caber na tela*/
 
             padding: 10px;
 
@@ -36,7 +47,15 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem corporis ut ea commodi nihil impedit eveniet ullam cumque, illum nostrum aliquid harum architecto rerum beatae alias dolore. Obcaecati, similique alias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex rem excepturi ducimus cum non, pariatur laborum asperiores qui accusamus! Distinctio in non quo saepe unde commodi, facere cum rem magnam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime atque eaque sed fugit corrupti, voluptatum, deleniti fugiat fuga iusto sequi, minima eius consequuntur ipsa facere consectetur. Dolor, ducimus magnam?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem corporis ut ea commodi nihil impedit eveniet ullam cumque, illum nostrum aliquid harum architecto rerum beatae alias dolore. Obcaecati, similique alias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex rem excepturi ducimus cum non, pariatur laborum asperiores qui accusamus! Distinctio in non quo saepe unde commodi, facere cum rem magnam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime atque eaque sed fugit corrupti, voluptatum, deleniti fugiat fuga iusto sequi, minima eius consequuntur ipsa facere consectetur. Dolor, ducimus magnam? </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis quas ratione ipsam explicabo, eligendi optio eaque rerum blanditiis saepe iste hic suscipit reiciendis est expedita repellat, facere dolor illum!</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ullam nisi nam nemo doloremque molestiae dolore esse, mollitia aperiam repellendus reprehenderit eligendi illum eos? Quibusdam nihil beatae repellendus omnis explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta ut nesciunt veritatis impedit dolores aliquam sunt illo deserunt tempora veniam blanditiis deleniti reprehenderit eveniet minima, dolorem fugit dicta natus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea omnis eius explicabo nisi cumque, minus modi laboriosam similique totam quos quaerat suscipit fuga adipisci? Error quia nesciunt corporis dolore libero.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magnam, reprehenderit nisi expedita iste dolor ullam consectetur nam dolores assumenda consequatur magni qui a impedit nostrum officiis beatae tenetur neque.</p>
+        
     </main>
     
 </body>
