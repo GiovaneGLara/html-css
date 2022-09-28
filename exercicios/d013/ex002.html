@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+
+    <link rel="shortcut icon" href="logo-html-200.png" type="image/x-icon">
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+
+            background-color: rgb(201, 197, 197);
+        }
+
+        table{
+            border-collapse: collapse;
+
+            width: 400px;
+
+            box-shadow: 2px 2px 0px rgb(88, 85, 85);
+
+            background-color: white;
+        }
+
+        td{
+            border: 2px solid black; 
+
+            padding: 10px;
+
+            text-align:center;
+        }
+
+      /*  td.v{
+            background-color: rgb(77, 231, 63);
+        }
+
+        td.h{
+            background-color: rgb(0, 217, 255);
+        }*/
+
+    </style>
+</head>
+<body>
+    <h1>Desafio de Mesclagem de Célula parte02.</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="h">A</td>
+
+            <td class="v" rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4" class="v">C</td>
+
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+
+        <tr>
+           <td>G</td>
+           <td>H</td>
+           <td>I</td> 
+        </tr>
+
+        <tr>
+           <td>J</td>
+           <td>L</td>
+           <td>M</td> 
+        </tr>
+
+        <tr>
+           <td colspan="4" class="h">N</td> 
+        </tr>
+    </table>
+</body>
+</html>

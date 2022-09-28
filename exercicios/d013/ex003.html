@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <link rel="shortcut icon" href="logo-html-200.png" type="image/x-icon">
+
+    <style>
+      body{
+    font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table{
+        border-collapse: collapse;
+      }
+
+      th , td{
+        border: 1px solid black;
+        padding: 8px;
+      }
+
+      .meio{
+        text-align: center;
+      }
+
+      .esquerda{
+        text-align: left;
+      }
+
+      .contrario{
+        background-color: #7e7e7e;
+        color: white;
+      }
+
+      .real{
+        font-weight: bolder;
+      }
+
+      .pe{
+        text-align: center;
+        text-shadow: 1px 1px rgb(231, 14, 14);
+        padding: 10px;
+      }
+
+      mark{
+        background-color: rgb(216, 238, 18);
+      }
+
+
+    </style>
+</head>
+<body>
+    <table>
+         <tr class="contrario">
+
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Diciplina</th>
+                <th colspan="2" scope="colgroup">Nota</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+        
+            <tr class="contrario">
+                
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr class="contrario">
+                <th colspan="4" scope="row" class="esquerda">Média de Exatas</th>
+
+                <td class="meio real">0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+
+                <td>História</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+                <td class="meio">0.0</td>
+            </tr>
+
+            <tr class="contrario">
+
+                <th colspan="4" scope="rowgroup" class="esquerda">Média de Humanas</th>
+
+                <td class="meio real">0.0</td>
+            </tr>
+    </table>
+
+    <footer class="pe"><mark>@Minha tabela completa</mark></footer>
+</body>
+</html>
